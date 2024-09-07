@@ -1,0 +1,1108 @@
+/* Reset and base styles  */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+body{
+    /* Landing Page - Studio */
+    position: relative;
+    width: 1440px;
+    height: 4000px;
+}
+
+header{
+    display: flex;
+    /* Rectangle 1 (хедер) */
+    /* position: fixed; */
+   /* Top Menu */
+    width: 1201px;
+    height: 33px;
+    z-index: 2;
+    margin: 42px 119px 41px 120px;
+    gap: 426px;
+    align-items: center;
+}
+
+
+.title{
+    width: 129px;
+    height: 33px;
+}
+
+.title-txt{
+    color: rgb(0, 0, 0);
+    font-family: Averta Demo PE Cutted Demo;
+    font-size: 27.15px;
+    font-weight: 400;
+    line-height: 0px;
+    letter-spacing: 0%;
+    text-align: left; 
+}
+
+.title-bold{
+    color: rgb(0, 0, 0);
+    font-family: Averta Demo PE Cutted Demo;
+    font-size: 27.15px;
+    font-weight: 700;
+    line-height: 0px;
+    letter-spacing: 0%;
+    text-align: left; 
+}
+
+.nav-list{
+    display: flex;
+    width: 646px;
+    height: 20px;
+    justify-content: space-between;
+    
+}
+
+.nav-list-link{
+    color: rgb(0, 0, 0);
+    font-family: Averta Demo PE Cutted Demo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1%;
+    text-align: left;
+}
+
+.nav-list-link:hover{
+    opacity: 80%;
+}
+
+.hero-headline{
+    margin-left: 68px;
+    width: 1372px;
+    height: 608px;
+    display: flex;
+}
+
+.hero-headline-content{
+    margin: 123px 0 0 52px;
+    width: 471px;
+    height: 264px;
+}
+
+.title-hero-headline-content{
+    color: rgb(0, 0, 0);
+    font-family: Averta Demo PE Cutted Demo;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 49px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.subtitle-hero-headline-content{
+    width: 471px;
+    height: 78px;
+    color: rgb(86, 86, 86);
+    font-family: Averta Demo PE Cutted Demo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 40px 0 33px 0;
+}
+
+.btn-hero-headline-content{
+    width: 217px;
+    height: 64px;
+    color: rgb(255, 255, 255);
+    font-family: Averta Demo PE Cutted Demo;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 6.5%;
+    text-align: center;
+    border-radius: 60px;
+    background: rgb(38, 57, 237);
+}
+
+.btn-hero-headline-content:hover{
+    background: rgb(21, 41, 221);
+}
+
+.dot-ornament{
+    /* Dot Ornament */
+    position: absolute;
+    width: 404px;
+    height: 154px;
+    left: 68px;
+    top: 427px;
+    z-index: -1;
+}
+
+.main-img-hero-headline{
+    margin-left: 95px;
+}
+
+.elipse-fig{
+    /* Ellipse 85 */
+    position: absolute;
+    width: 129px;
+    height: 129px;
+    left: 623px;
+    top: 74px;
+    background: rgb(218, 233, 255);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.rectangle23{
+    /* Rectangle 23 */
+    position: absolute;
+    width: 178px;
+    height: 178px;
+    left: 1142px;
+    top: 504px;
+    border-radius: 0px 0px 100px 0px;
+    background: rgb(255, 245, 219);
+    z-index: -1;
+}
+
+.our-clients{
+    width: 1199.55px;
+    height: 124px;
+    display: flex;
+    margin: 40px 120px 94px 120px;
+}
+
+.title-our-clients{
+    width: 336px;
+    height: 124px;
+    gap: 17px;
+    margin-right: 60.22px;
+}
+
+.txt-title-our-clients{
+    width: 190px;
+    height: 49px;
+    color: rgb(0, 0, 0);
+    font-family: Averta Demo PE Cutted Demo;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.subtitle-our-clients{
+    width: 336px;
+    height: 58px;
+    color: rgb(117, 117, 117);
+    font-family: Averta Demo PE Cutted Demo;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.img-our-clients{
+    width: 1199.55px;
+    display: flex;
+    gap: 60px;
+   align-items: center;
+}
+
+.google-logo{
+    width: 149.99px;
+    height: 49.29px;
+}
+
+.airbnb-logo{
+    width: 166.41px;
+    height: 52.14px;
+}
+
+.uber-eats-logo{
+    width: 165.71px;
+    height: 26.99px;
+}
+
+.amazon-logo{
+    width: 141.55px;
+    height: 42.61px;
+    margin-top: 20px;
+}
+
+.our-help{
+    width: 1358px;
+    height: 867px;
+    margin-left: 82px;
+}
+
+.our-help-txtbox{
+    width: 396px;
+    height: 180px;
+    padding: 360px 0 0 39px;
+}
+
+.our-help-title{
+    color: rgb(0, 0, 0);
+    font-family: Averta Demo PE Cutted Demo;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 31px;
+}
+
+.our-help-subtitle{
+    color: rgb(86, 86, 86);
+    font-family: Averta Demo PE Cutted Demo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.our-help-dot-ornament{
+    /* Group 70 */
+    position: absolute;
+    width: 405px;
+    height: 154px;
+    left: 125px;
+    top: 1584px;
+    z-index: -1;
+}
+
+.rectangle25{
+    /* Rectangle 25 */
+    position: absolute;
+    width: 178px;
+    height: 178px;
+    left: 70px;
+    top: 1240px;
+    transform: rotate(-180.00deg);
+    border-radius: 0px 0px 100px 0px;
+    background: rgb(255, 245, 219);
+    z-index: -1;
+}
+
+.rectangle24{
+    /* Rectangle 24 */
+    position: absolute;
+    width: 1047px;
+    height: 619px;
+    left: 393px;
+    top: 1080px;
+    border-radius: 150px 0px 0px 0px;
+    background: rgb(244, 249, 255);
+    z-index: -1;
+}
+
+.ellipse87{
+    /* Ellipse 87 */
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 1177px;
+    top: 1651px;
+
+    box-sizing: border-box;
+    border: 8.8px solid rgb(255, 0, 122);
+    border-radius: 50%;
+    z-index: -2;
+}
+
+.first-case{
+    /* Rectangle 27 */
+    left: 607px;
+    top: 1019px;
+}
+
+.first-case-background-rect{
+    background: rgb(241, 247, 255);
+}
+
+.our-help-img-logo{
+    /* Vector */
+    position: absolute;
+    left: 24px;
+    top: 24px;
+}
+
+.our-help-content-title{
+    height: 58px;
+    color: rgb(0, 0, 0);
+    font-family: Averta Demo PE Cutted Demo;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 29px;
+
+}
+
+.our-help-content-subtitle{
+    height: 44px;
+    color: rgb(117, 117, 117);
+    font-family: Averta Demo PE Cutted Demo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.second-case{
+    /* Rectangle 27 */
+    left: 949px;
+    top: 940px;
+}
+
+.second-case-background-rect{
+    background: rgb(255, 247, 227);
+}
+
+.third-case{
+    /* Rectangle 27 */
+    left: 607px;
+    top: 1428px;
+}
+
+.third-case-background-rect{
+    background: rgb(255, 242, 248);
+}
+
+.fourth-case{
+    /* Rectangle 27 */
+    left: 949px;
+    top: 1349px;
+
+}
+
+.fourth-case-background-rect{
+    background: rgb(222, 255, 238);
+}
+
+.first-case-background-rect, .second-case-background-rect, .third-case-background-rect, .fourth-case-background-rect{
+    position: relative;
+    /* Rectangle 28 */
+    width: 121px;
+    height: 121px;
+    margin: 39px 93px 31px 94px;
+    border-radius: 20px;
+}
+
+.first-case, .second-case, .third-case, .fourth-case{
+    position: absolute;
+    width: 308px;
+    height: 379px;
+
+    box-sizing: border-box;
+    border: 1px solid rgb(242, 242, 242);
+    border-radius: 40px;
+
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 255, 255);
+}
+
+.great-since{
+    display: flex;
+    width: 1200px;
+    height: 436px;
+    margin: 146px 120px 117px 120px;
+}
+
+.great-since-video{
+    position: relative;
+    width: 591px;
+    height: 436px;
+}
+
+.great-since-video-btn{
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    top: 140px;
+    left: 236px;
+    background-image:url(/img/since/play-rounded-button\ 1.svg);
+}
+
+.great-since-elipse{
+    /* Ellipse 86 */
+    position: absolute;
+    width: 129px;
+    height: 129px;
+    left: 462px;
+    top: 307px;
+    background: rgb(255, 245, 219);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.great-since-video-img{
+    border-radius: 32px;
+
+    /* Shadow_1 */
+    box-shadow: 10px 20px 50px 0px rgba(0, 0, 0, 0.15);
+    background: url(),rgb(196, 196, 196);
+}
+
+.great-since-txtbox{
+    position: relative;
+    width: 570px;
+    height: 256px;
+    margin: 58px 0 122px 39px;
+}
+
+.great-since-title{
+    width: 468px;
+    height: 97px;
+    color: rgb(0, 0, 0);
+    font-family: Averta Demo PE Cutted Demo;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 24px 63px 31px 39px;
+}
+
+.great-since-txt{
+    width: 532px;
+    height: 104px;
+    color: rgb(86, 86, 86);
+    font-family: Averta Demo PE Cutted Demo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 38px;
+}
+
+.rectangle26{
+    /* Rectangle 26 */
+    position: absolute;
+    width: 178px;
+    height: 178px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px 0px 100px 0px;
+
+    background: rgb(239, 241, 255);
+    z-index: -1;
+}
+
+.happy-client{
+    /* Happy Client */
+    position: relative;
+    width: 1264px;
+    height: 597px;
+    margin-left: 107px;
+}
+
+.happy-client-title{
+    color: rgb(0, 0, 0);
+    font-family: Averta Demo PE Cutted Demo;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 17px;
+}
+
+.happy-client-subtitle{
+    color: rgb(117, 117, 117);
+    font-family: Averta Demo PE Cutted Demo;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.happy-client-main-photo{
+    position: relative;
+    width: 436px;
+    height: 431px;
+
+}
+
+.client-main-photo{
+    /* unsplash:MTZTGvDsHFY */
+    position: absolute;
+    width: 389px;
+    height: 389px;
+    top: 42px;
+    left: 10px;
+    border-radius: 500px 0px 500px 500px;
+}
+
+.happy-client-main-photo-dots{
+    /* Dot */
+    position: absolute;
+    width: 196px;
+    height: 154px;
+    left: 240px;
+    top: 42px;
+    z-index: -1;
+}
+
+.happy-client-main-photo-elipse{
+    /* Ellipse 94 */
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 0px;
+    top: 299px;
+    box-sizing: border-box;
+    border: 8.8px solid rgb(255, 0, 122);
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.happy-client-content{
+    display: flex;
+
+    width: 1264px;
+    height: 431px;
+    margin-top: 71px;
+}
+
+.feedback{
+    /* Group 72 */
+    width: 413.5px;
+    height: 185px;
+    margin: 126px 38px 120px 28.5px;
+}
+
+.feedback-name{
+    width: 135px;
+    height: 29px;
+    color: rgb(0, 0, 0);
+    font-family: Averta Demo PE Cutted Demo;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.the-feedback{
+    width: 412px;
+    height: 78px;
+    color: rgb(86, 86, 86);
+    font-family: Averta Demo PE Cutted Demo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 22px 0 40px 0;
+}
+
+.feedback-dots-nav{
+    width: 184px;
+    height: 16px;
+    display: flex;
+    gap: 26px;
+}
+
+.active-dot{
+    width: 16px;
+    height: 16px;
+    background: rgb(38, 57, 237);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dot{
+    width: 16px;
+    height: 16px;
+    background: rgb(231, 240, 252);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.photo-map{
+    position: relative;
+    /* Group 71 */
+    width: 348px;
+    height: 355px;
+    margin: 42px 0 34px 0;
+}
+
+.photo-map-img-1{
+    /* unsplash:3TLl_97HNJo */
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    left: 137px;
+    top: 0px;
+    transition: transform 0.3s ease;
+}
+
+.photo-map-img-2{
+    /* unsplash:mEZ3PoFGs_k */
+    position: absolute;
+    width: 98px;
+    height: 98px;
+    left: 0px;
+    top: 58px;
+    transition: transform 0.3s ease;
+}
+
+.photo-map-img-3{
+    /* unsplash:et_78QkMMQs */
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    left: 249px;
+    top: 63px;
+    transition: transform 0.3s ease;
+}
+
+.photo-map-img-4{
+    /* unsplash:O3ymvT7Wf9U */
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 124px;
+    top: 107px;
+    transition: transform 0.3s ease;
+}
+
+.photo-map-img-5{
+    /* unsplash:6anudmpILw4 */
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    left: 294px;
+    top: 150px;
+    transition: transform 0.3s ease;
+}
+
+.photo-map-img-6{
+    /* unsplash:d1UPkiFd04A */
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    left: 0px;
+    top: 203px;
+    transition: transform 0.3s ease;
+}
+
+.photo-map-img-7{
+    /* unsplash:W7b3eDUb_2I */
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    left: 226px;
+    top: 227px;
+    transition: transform 0.3s ease;
+}
+
+.photo-map-img-8{
+    /* unsplash:OhKElOkQ3RE */
+    position: absolute;
+    width: 98px;
+    height: 98px;
+    left: 98px;
+    top: 257px;
+    transition: transform 0.3s ease;
+}
+
+.elipse-photo-map{
+    /* Ellipse 93 */
+    position: absolute;
+    width: 184px;
+    height: 184px;
+    left: 21px;
+    top: 107px;
+    background: rgb(255, 245, 219);
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.photo-map-img-1:hover, .photo-map-img-2:hover,.photo-map-img-3:hover,.photo-map-img-4:hover,.photo-map-img-5:hover,.photo-map-img-6:hover,.photo-map-img-7:hover,.photo-map-img-8:hover{
+    transform: scale(1.2); /* Увеличение на 20% */
+}
+
+.newsletter{
+    /* Newsletter */
+    position: relative;
+    display: flex;
+    width: 1272px;
+    height: 387px;
+    margin: 92px 86px 106.5px 82px;
+}
+
+.newsletter-txt-content{
+    width: 408px;
+    height: 95px;
+    margin: 154px 42px 17px 130px;
+}
+
+.newsletter-title{
+    width: 408px;
+    height: 49px;
+    color: rgb(0, 0, 0);
+    font-family: Averta Demo PE Cutted Demo;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.newsletter-subtitle{
+    width: 418px;
+    height: 29px;
+    color: rgb(117, 117, 117);
+    font-family: Averta Demo PE Cutted Demo;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.subscribe-container {
+    position: relative;
+    display: flex;
+    width: 479px;
+    height: 80px;
+    margin: 162px 135px 0 0 ;
+}
+
+
+.subscribe-container input{
+    width: 479px;
+    height: 80px;
+    box-sizing: border-box;
+    border: 1px solid rgb(241, 241, 241);
+    border-radius: 60px;
+
+    /* Shadow_1 */
+    box-shadow: 10px 20px 50px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+    padding: 30px 0 30px 34px;
+}
+
+.subscribe-button{
+    position: absolute;
+    width: 190px;
+    height: 60px;
+    top: 10px;
+    left: 282px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 20px 40px 20px 40px;
+    border-radius: 60px;
+
+    background: rgb(38, 57, 237);
+
+    color: rgb(255, 255, 255);
+    font-family: Averta Demo PE Cutted Demo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 6.5%;
+    text-align: center;
+}
+
+.subscribe-button:hover{
+    background: rgb(21, 41, 221);
+}
+
+.rect31 {
+    /* Rectangle 31 */
+    position: absolute;
+    width: 543px;
+    height: 292px;
+    right: 15px;
+    top: 56px;
+    z-index: -1;
+}
+
+.rect31 img{
+    width: 543px;
+    height: 292px;
+}
+
+.rectangle30{
+    /* Rectangle 30 */
+    position: absolute;
+    width: 1197px;
+    height: 292px;
+    right: 37px;
+    top: 56px;
+    border-radius: 75px;
+    background: rgb(244, 249, 255);
+    z-index: -2;
+}
+
+.rect32{
+    /* Rectangle 32 */
+    position: absolute;
+    width: 178px;
+    height: 178px;
+    left: 0px;
+    top: 209px;
+    transform: rotate(90.00deg);
+    border-radius: 0px 0px 100px 0px;
+    background: rgb(255, 245, 219);
+    z-index: -3;
+}
+
+.newsletter-ornament{
+    /* Group 73 */
+    position: absolute;
+    width: 175px;
+    height: 154px;
+    left: 1097px;
+    top: 0px;
+    z-index: -2;
+}
+
+footer{
+    /* Footer */
+    display: flex;
+    width: 1200px;
+    height: 309px;
+    margin: 0 120px;
+}
+
+.about{
+    width: 270px;
+    height: 220px;
+    margin: 60.5px 191px 28.5px 0;
+}
+
+.about-title{
+    width: 114px;
+    height: 29px;
+    color: rgb(0, 0, 0);
+    font-family: Averta Demo PE Cutted Demo;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 27px;
+}
+
+.about-title span{
+    color: rgb(0, 0, 0);
+    font-family: Averta Demo PE Cutted Demo;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 0px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.about-txt{
+    width: 270px;
+    height: 110px;
+    color: rgb(86, 86, 86);
+    font-family: Averta Demo PE Cutted Demo;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.social-media{
+    display: flex;
+    width: 140px;
+    height: 36px;
+
+    gap: 16px;
+}
+
+.what-we-do{
+    width: 156px;
+    height: 161px;
+    margin: 63.5px 114px 0 0;
+}
+
+.what-we-do-title{
+    width: 117px;
+    height: 24px;
+    color: rgb(0, 0, 0);
+    font-family: Averta Demo PE Cutted Demo;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.what-we-do-list{
+    width: 156px;
+    height: 112px;
+    gap: 20px;
+
+}
+
+.company{
+    width: 111px;
+    height: 133px;
+    margin: 63.5px 102px 0 0;
+}
+
+.company-title{
+    width: 90px;
+    height: 24px;
+    color: rgb(0, 0, 0);
+    font-family: Averta Demo PE Cutted Demo;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.company-list{
+    width: 111px;
+    height: 84px;
+    gap: 20px;
+}
+
+.support{
+    width: 77px;
+    height: 133px;
+    margin: 63.5px 103px 0 0;
+}
+
+.support-title{
+    color: rgb(0, 0, 0);
+    font-family: Averta Demo PE Cutted Demo;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.support-list{
+    width: 59px;
+    height: 84px;
+    gap: 20px;
+}
+
+.contact{
+    width: 76px;
+    height: 24px;
+    margin-top: 63.5px;
+}
+
+.contact-title{
+    color: rgb(0, 0, 0);
+    font-family: Averta Demo PE Cutted Demo;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.contact-list{
+    width: 75px;
+    height: 56px;
+    gap: 20px;
+}
+
+.contact-list a, .support-list a, .company-list a, .what-we-do-list a{
+    color: rgb(0, 0, 0);
+    font-family: Averta Demo PE Cutted Demo;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 200%;
+    letter-spacing: 0%;
+    text-align: left;
+}
